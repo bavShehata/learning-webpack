@@ -1,8 +1,5 @@
-import { champion } from './champion';
-import './styles/index.css';
-const IE = {
-  passive: 'OP AA',
-  cost: 3600,
-};
-console.log(IE);
-console.log(champion);
+import { render } from 'react-dom';
+import App from './components/App';
+import Recipes from './components/Recipes';
+
+render(App(), document.getElementById('root'));
