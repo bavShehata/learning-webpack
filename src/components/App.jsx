@@ -8,7 +8,7 @@ const App = () => {
       <section className="hero"></section>
       <main>
         <section>
-          <h1>HELLO THERE REACT</h1>
+          <h1>HELLO THERE REACT!!</h1>
         </section>
         <img src={sword} alt="sword" />
         <img src={swordSVG} alt="swordSvg" />

@@ -10,7 +10,7 @@ const elvenShieldRecipe = {
 const elvenGauntletsRecipe = {
   ...elvenShieldRecipe,
   leather: 1,
-  refinedMoonstone: 1,
+  refinedMoonstone: 10,
 };
 
 const Recipes = () => {
